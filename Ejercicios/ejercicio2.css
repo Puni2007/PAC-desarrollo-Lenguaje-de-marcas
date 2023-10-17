@@ -1,0 +1,39 @@
+/* Estilo general */
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+/* Estilo ejercicio 2 */
+form {
+	background-color: skyblue;
+	font-family: Calibri;
+	color: darkblue;
+	font-weight: bold;
+}
+
+legend {
+	font-family: Verdana;
+}
+
+p img {
+	width: 50px;
+}
+
+.botonEnviar {
+
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+}
+
+#botonVolver {
+	
+	font-family: Impact;
+	text-decoration: none;
+}
+

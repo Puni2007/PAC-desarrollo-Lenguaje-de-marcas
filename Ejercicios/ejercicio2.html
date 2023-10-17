@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 2</title>
+	<link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
+
+	<form action="ejercicio2b.html" method="get">
+		<fieldset>
+			<legend>Entradas</legend> <br>
+			<label for="numEntradas">Número de entradas:</label>
+			<select name="entradas" id="entradas">
+				<option value="1unidad">1</option>
+				<option value="2unidades">2</option>
+				<option value="3unidades">3</option>
+				<option value="4unidades">4</option>
+				<option value="5unidades">5</option>
+			</select>
+			<br><br>
+			<label for="categoria">Categoría:</label>
+			<br>
+			<select name="categoria" id="categoria">
+				<option value="general">Pista General</option>
+				<option value="VIP">Entrada VIP</option>
+				<option value="platea">Platea</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Datos del comprador</legend>
+			<p>Nombre: <input type="text" name="nombre"></p>
+			<p>Apellido: <input type="text" name="apellido"> </p>
+			<p>E-Mail: <input type="text" name="email"></p>
+			<p>Fecha de nacimiento <input type="date" name="fechaNacimiento"></p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Pago</legend>
+			<label for="pago"></label>
+			<p>Selecciona método de pago: </p>
+			<p><input type="radio" name="pago" value="visa"><img src="img/visaLogo.png"></p>
+			<p><input type="radio" name="pago" value="mastercard"><img src="img/masterLogo.png"></p>
+			<p><input type="radio" name="pago" value="paypal"><img src="img/paypalLogo.png"></p>
+			<p><input type="radio" name="pago" value="bizum"><img src="img/bizumLogo.jpg"></p>
+			<p><input type="checkbox" name="condiciones" value="aceptaCondiciones">
+				Acepto las condiciones de compra</p>
+			<input type="submit" name="enviar" value="Proceder al pago" class="botonEnviar">
+
+		</fieldset>
+	</form>
+</body>
+</html>
